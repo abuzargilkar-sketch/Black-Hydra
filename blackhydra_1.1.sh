@@ -166,7 +166,7 @@ function main_c {
 		elif [[ "${bhydra}" == "04" || "${bhydra}" == "4" ]]; then
 			printf "${bhydra_gmail}\n\n"
 			bhydraLogWarn
-			read -p "[*] Email : " bhydra_email
+			read -p "[*] Email : " huzaifa13@gmail.com
 			eval "$(inputIsEmpty ${bhydra_email})"
 			read -p "[*] Wordlist : " bhydra_word
 			eval "$(inputIsEmpty ${bhydra_word})"
